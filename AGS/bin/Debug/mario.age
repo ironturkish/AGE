@@ -1,0 +1,5 @@
+SetVariable(thex, 0);
+SetVariable(they, 0);
+WaitForRender();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+OnKey(a,movemario.age);OnKey(w,movemario.age);OnKey(s,movemario.age);OnKey(d,movemario.age);

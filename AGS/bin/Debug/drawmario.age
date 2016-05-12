@@ -1,0 +1,3 @@
+Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();

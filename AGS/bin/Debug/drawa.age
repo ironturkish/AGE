@@ -1,0 +1,19 @@
+Log(Animation Script, AGE);
+DrawPixel(0,0,#000000);Wait(100);
+DrawPixel(1,0,#000000);Wait(100);
+DrawPixel(2,0,#000000);Wait(100);
+DrawPixel(3,0,#000000);Wait(100);
+
+DrawPixel(0,1,#000000);Wait(100);
+DrawPixel(3,1,#000000);Wait(100);
+
+DrawPixel(0,2,#000000);Wait(100);
+DrawPixel(1,2,#000000);Wait(100);
+DrawPixel(2,2,#000000);Wait(100);
+DrawPixel(3,2,#000000);Wait(100);
+
+DrawPixel(0,3,#000000);Wait(100);
+DrawPixel(3,3,#000000);Wait(100);
+
+DrawPixel(0,3,#000000);Wait(100);
+DrawPixel(3,3,#000000);Wait(100);

@@ -1,0 +1,6 @@
+Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();

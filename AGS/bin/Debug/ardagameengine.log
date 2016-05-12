@@ -1,0 +1,2296 @@
+5/12/2016 7:45:16 PM(UTC): Key down: s
+5/12/2016 7:45:16 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:16 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:16 PM(UTC): Move mario script AGE key: s
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:16 PM(UTC): Running code SetVariable(they, 1)
+5/12/2016 7:45:16 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:16 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:16 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:16 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:16 PM(UTC): Loading Texture with filename mario.texture to X:0 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:0 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0000 to X:3 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFD60101 to X:4 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFD70101 to X:5 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFD70101 to X:6 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0000 to X:7 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:1
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFDD0000 to X:2 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFED0001 to X:3 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFEF0001 to X:4 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0001 to X:5 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0001 to X:6 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF10001 to X:7 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFC50000 to X:8 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFC50000 to X:9 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFBC0000 to X:10 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:2
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF1C4C00 to X:2 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF5F8001 to X:3 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF1D5C01 to X:4 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFDB01 to X:5 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFDA01 to X:6 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF1F5F01 to X:7 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFC900 to X:8 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:3
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF151700 to X:1 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFD801 to X:2 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF354701 to X:3 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFD701 to X:4 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF4A501 to X:5 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFB801 to X:6 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF173901 to X:7 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFC901 to X:8 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF39600 to X:9 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF38500 to X:10 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:4
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF383B00 to X:1 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFD801 to X:2 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF384B01 to X:3 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF183A01 to X:4 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFB901 to X:5 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF4A701 to X:6 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFD901 to X:7 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF153801 to X:8 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFC901 to X:9 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFBC01 to X:10 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF18500 to X:11 Y:5
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF362900 to X:1 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF162900 to X:2 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFC901 to X:3 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFB601 to X:4 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF5A801 to X:5 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFB901 to X:6 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF163901 to X:7 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF595D01 to X:8 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF384D01 to X:9 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF151800 to X:10 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:6
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFA200 to X:3 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFACD01 to X:4 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFB501 to X:5 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFB601 to X:6 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFC701 to X:7 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFA500 to X:8 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFF9300 to X:9 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:7
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF332500 to X:2 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF3D7101 to X:3 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFD0001 to X:4 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF3C6E01 to X:5 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF575701 to X:6 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF1A4E00 to X:7 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:8
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF322600 to X:1 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF756C01 to X:2 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF5C7C01 to X:3 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFF0001 to X:4 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF449201 to X:5 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF429301 to X:6 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFF0001 to X:7 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF3B5D00 to X:8 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF544800 to X:9 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF332700 to X:10 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:9
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF353900 to X:0 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF555C01 to X:1 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF746701 to X:2 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF419401 to X:3 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFE40001 to X:4 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFED0001 to X:5 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFED0001 to X:6 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFE30001 to X:7 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF429501 to X:8 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF766801 to X:9 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF555C01 to X:10 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF353900 to X:11 Y:10
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFB701 to X:0 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFC601 to X:1 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF1B5D01 to X:2 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFF0001 to X:3 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFF01 to X:4 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0001 to X:5 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0001 to X:6 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFF01 to X:7 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFF0001 to X:8 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FF1B5D01 to X:9 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFC601 to X:10 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFB701 to X:11 Y:11
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF6AA01 to X:0 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF5A501 to X:1 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFF01 to X:2 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0001 to X:3 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0001 to X:4 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFD70101 to X:5 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFD70101 to X:6 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0001 to X:7 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFCE0001 to X:8 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFFFF01 to X:9 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF5A501 to X:10 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF6AA01 to X:11 Y:12
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFF49600 to X:0 Y:13
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFFCBC00 to X:1 Y:13
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFC60001 to X:2 Y:13
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFD70101 to X:3 Y:13
+5/12/2016 7:45:16 PM(UTC): Drawing pixel with color #FFD80101 to X:4 Y:13
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFCD0000 to X:5 Y:13
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFCD0000 to X:6 Y:13
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFD80101 to X:7 Y:13
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFD70101 to X:8 Y:13
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFC60001 to X:9 Y:13
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFCBC00 to X:10 Y:13
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFF49600 to X:11 Y:13
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFE50000 to X:2 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFEE0001 to X:3 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFC40000 to X:4 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFC40000 to X:7 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFEE0001 to X:8 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFE50000 to X:9 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:14
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:0 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF322500 to X:1 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF5D8001 to X:2 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF3B5E00 to X:3 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF3B5E00 to X:8 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF5D8001 to X:9 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF322500 to X:10 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:15
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF524800 to X:0 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF736B01 to X:1 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF716801 to X:2 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF534900 to X:3 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF534900 to X:8 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF716801 to X:9 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF736B01 to X:10 Y:16
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF524800 to X:11 Y:16
+5/12/2016 7:45:17 PM(UTC): Key down: d
+5/12/2016 7:45:17 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:17 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:17 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:17 PM(UTC): Key down: d
+5/12/2016 7:45:17 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:17 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:17 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:17 PM(UTC): Key down: s
+5/12/2016 7:45:17 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:17 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:17 PM(UTC): Move mario script AGE key: s
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:17 PM(UTC): Key down: d
+5/12/2016 7:45:17 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:17 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:17 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:17 PM(UTC): Key down: s
+5/12/2016 7:45:17 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:17 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:17 PM(UTC): Move mario script AGE key: s
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:17 PM(UTC): Running code SetVariable(they, 2)
+5/12/2016 7:45:17 PM(UTC): Key down: d
+5/12/2016 7:45:17 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:17 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:17 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 0
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:17 PM(UTC): Running code SetVariable(thex, 1)
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:17 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:17 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:17 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:17 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:17 PM(UTC): Loading Texture with filename mario.texture to X:1 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:1 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFCE0000 to X:4 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFD60101 to X:5 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFD70101 to X:6 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFD70101 to X:7 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFCE0000 to X:8 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:2
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFDD0000 to X:3 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFED0001 to X:4 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFEF0001 to X:5 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFCE0001 to X:6 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFCE0001 to X:7 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFF10001 to X:8 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFC50000 to X:9 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFC50000 to X:10 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFBC0000 to X:11 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:3
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF1C4C00 to X:3 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF5F8001 to X:4 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF1D5C01 to X:5 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFDB01 to X:6 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFDA01 to X:7 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF1F5F01 to X:8 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFC900 to X:9 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:4
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF151700 to X:2 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFD801 to X:3 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF354701 to X:4 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFD701 to X:5 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFF4A501 to X:6 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFB801 to X:7 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF173901 to X:8 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFC901 to X:9 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFF39600 to X:10 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFF38500 to X:11 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:5
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF383B00 to X:2 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFD801 to X:3 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF384B01 to X:4 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF183A01 to X:5 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFB901 to X:6 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFF4A701 to X:7 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFD901 to X:8 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF153801 to X:9 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFC901 to X:10 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFBC01 to X:11 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFF18500 to X:12 Y:6
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:7
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF362900 to X:2 Y:7
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FF162900 to X:3 Y:7
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFC901 to X:4 Y:7
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFFFB601 to X:5 Y:7
+5/12/2016 7:45:17 PM(UTC): Drawing pixel with color #FFF5A801 to X:6 Y:7
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFB901 to X:7 Y:7
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF163901 to X:8 Y:7
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF595D01 to X:9 Y:7
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF384D01 to X:10 Y:7
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF151800 to X:11 Y:7
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:7
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFA200 to X:4 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFACD01 to X:5 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFB501 to X:6 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFB601 to X:7 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFC701 to X:8 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFA500 to X:9 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFF9300 to X:10 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:8
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF332500 to X:3 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF3D7101 to X:4 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFD0001 to X:5 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF3C6E01 to X:6 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF575701 to X:7 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF1A4E00 to X:8 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:9
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF322600 to X:2 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF756C01 to X:3 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF5C7C01 to X:4 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFF0001 to X:5 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF449201 to X:6 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF429301 to X:7 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFF0001 to X:8 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF3B5D00 to X:9 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF544800 to X:10 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF332700 to X:11 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:10
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF353900 to X:1 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF555C01 to X:2 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF746701 to X:3 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF419401 to X:4 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFE40001 to X:5 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFED0001 to X:6 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFED0001 to X:7 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFE30001 to X:8 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF429501 to X:9 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF766801 to X:10 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF555C01 to X:11 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF353900 to X:12 Y:11
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFB701 to X:1 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFC601 to X:2 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF1B5D01 to X:3 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFF0001 to X:4 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFF01 to X:5 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFCE0001 to X:6 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFCE0001 to X:7 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFF01 to X:8 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFF0001 to X:9 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF1B5D01 to X:10 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFC601 to X:11 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFB701 to X:12 Y:12
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFF6AA01 to X:1 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFF5A501 to X:2 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFF01 to X:3 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFCE0001 to X:4 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFCE0001 to X:5 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFD70101 to X:6 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFD70101 to X:7 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFCE0001 to X:8 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFCE0001 to X:9 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFF01 to X:10 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFF5A501 to X:11 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFF6AA01 to X:12 Y:13
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFF49600 to X:1 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFCBC00 to X:2 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFC60001 to X:3 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFD70101 to X:4 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFD80101 to X:5 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFCD0000 to X:6 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFCD0000 to X:7 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFD80101 to X:8 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFD70101 to X:9 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFC60001 to X:10 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFCBC00 to X:11 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFF49600 to X:12 Y:14
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFE50000 to X:3 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFEE0001 to X:4 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFC40000 to X:5 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFC40000 to X:8 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFEE0001 to X:9 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFE50000 to X:10 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:15
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:1 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF322500 to X:2 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF5D8001 to X:3 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF3B5E00 to X:4 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF3B5E00 to X:9 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF5D8001 to X:10 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF322500 to X:11 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:16
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF524800 to X:1 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF736B01 to X:2 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF716801 to X:3 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF534900 to X:4 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF534900 to X:9 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF716801 to X:10 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF736B01 to X:11 Y:17
+5/12/2016 7:45:18 PM(UTC): Drawing pixel with color #FF524800 to X:12 Y:17
+5/12/2016 7:45:18 PM(UTC): Key down: s
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: s
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): Key down: d
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): Key down: s
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: s
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): Key down: d
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): Key down: s
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: s
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): Key down: d
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): Key down: s
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: s
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): Key down: d
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): Key down: s
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: s
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): Key down: d
+5/12/2016 7:45:18 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:18 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:18 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:18 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:19 PM(UTC): Running code SetVariable(thex, 2)
+5/12/2016 7:45:19 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:19 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:19 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:19 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:19 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:19 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:19 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:19 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:19 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:19 PM(UTC): Loading Texture with filename mario.texture to X:2 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:2 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0000 to X:5 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFD60101 to X:6 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFD70101 to X:7 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFD70101 to X:8 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0000 to X:9 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:2
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFDD0000 to X:4 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFED0001 to X:5 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFEF0001 to X:6 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0001 to X:7 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0001 to X:8 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF10001 to X:9 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFC50000 to X:10 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFC50000 to X:11 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFBC0000 to X:12 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:3
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF1C4C00 to X:4 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF5F8001 to X:5 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF1D5C01 to X:6 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFDB01 to X:7 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFDA01 to X:8 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF1F5F01 to X:9 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFC900 to X:10 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:4
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF151700 to X:3 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFD801 to X:4 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF354701 to X:5 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFD701 to X:6 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF4A501 to X:7 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFB801 to X:8 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF173901 to X:9 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFC901 to X:10 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF39600 to X:11 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF38500 to X:12 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:5
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF383B00 to X:3 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFD801 to X:4 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF384B01 to X:5 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF183A01 to X:6 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFB901 to X:7 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF4A701 to X:8 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFD901 to X:9 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF153801 to X:10 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFC901 to X:11 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFBC01 to X:12 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF18500 to X:13 Y:6
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF362900 to X:3 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF162900 to X:4 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFC901 to X:5 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFB601 to X:6 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF5A801 to X:7 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFB901 to X:8 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF163901 to X:9 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF595D01 to X:10 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF384D01 to X:11 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF151800 to X:12 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:7
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFA200 to X:5 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFACD01 to X:6 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFB501 to X:7 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFB601 to X:8 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFC701 to X:9 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFA500 to X:10 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFF9300 to X:11 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:8
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF332500 to X:4 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF3D7101 to X:5 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFD0001 to X:6 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF3C6E01 to X:7 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF575701 to X:8 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF1A4E00 to X:9 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:9
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF322600 to X:3 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF756C01 to X:4 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF5C7C01 to X:5 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFF0001 to X:6 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF449201 to X:7 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF429301 to X:8 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFF0001 to X:9 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF3B5D00 to X:10 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF544800 to X:11 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF332700 to X:12 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:10
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF353900 to X:2 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF555C01 to X:3 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF746701 to X:4 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF419401 to X:5 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFE40001 to X:6 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFED0001 to X:7 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFED0001 to X:8 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFE30001 to X:9 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF429501 to X:10 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF766801 to X:11 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF555C01 to X:12 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF353900 to X:13 Y:11
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFB701 to X:2 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFC601 to X:3 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF1B5D01 to X:4 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFF0001 to X:5 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFF01 to X:6 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0001 to X:7 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0001 to X:8 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFF01 to X:9 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFF0001 to X:10 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FF1B5D01 to X:11 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFC601 to X:12 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFB701 to X:13 Y:12
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF6AA01 to X:2 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF5A501 to X:3 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFF01 to X:4 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0001 to X:5 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0001 to X:6 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFD70101 to X:7 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFD70101 to X:8 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0001 to X:9 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCE0001 to X:10 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFF01 to X:11 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF5A501 to X:12 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF6AA01 to X:13 Y:13
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF49600 to X:2 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFCBC00 to X:3 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFC60001 to X:4 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFD70101 to X:5 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFD80101 to X:6 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCD0000 to X:7 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFCD0000 to X:8 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFD80101 to X:9 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFD70101 to X:10 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFC60001 to X:11 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFCBC00 to X:12 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFF49600 to X:13 Y:14
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:15
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:15
+5/12/2016 7:45:19 PM(UTC): Drawing pixel with color #FFE50000 to X:4 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFEE0001 to X:5 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFC40000 to X:6 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFC40000 to X:9 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFEE0001 to X:10 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFE50000 to X:11 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:15
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:2 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF322500 to X:3 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF5D8001 to X:4 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF3B5E00 to X:5 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF3B5E00 to X:10 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF5D8001 to X:11 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF322500 to X:12 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:16
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF524800 to X:2 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF736B01 to X:3 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF716801 to X:4 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF534900 to X:5 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF534900 to X:10 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF716801 to X:11 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF736B01 to X:12 Y:17
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF524800 to X:13 Y:17
+5/12/2016 7:45:20 PM(UTC): Key down: d
+5/12/2016 7:45:20 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:20 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:20 PM(UTC): Move mario script AGE key: d
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:20 PM(UTC): Running code SetVariable(thex, 3)
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:20 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:20 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:20 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: 3
+5/12/2016 7:45:20 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:20 PM(UTC): Loading Texture with filename mario.texture to X:3 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:3 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFCE0000 to X:6 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFD60101 to X:7 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFD70101 to X:8 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFD70101 to X:9 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFCE0000 to X:10 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:2
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFDD0000 to X:5 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFED0001 to X:6 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFEF0001 to X:7 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFCE0001 to X:8 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFCE0001 to X:9 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFF10001 to X:10 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFC50000 to X:11 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFC50000 to X:12 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFBC0000 to X:13 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:3
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF1C4C00 to X:5 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF5F8001 to X:6 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF1D5C01 to X:7 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFDB01 to X:8 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFDA01 to X:9 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF1F5F01 to X:10 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFC900 to X:11 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:4
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF151700 to X:4 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFD801 to X:5 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF354701 to X:6 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFD701 to X:7 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFF4A501 to X:8 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFB801 to X:9 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF173901 to X:10 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFC901 to X:11 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFF39600 to X:12 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFF38500 to X:13 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:5
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF383B00 to X:4 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFD801 to X:5 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF384B01 to X:6 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF183A01 to X:7 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFB901 to X:8 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFF4A701 to X:9 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFD901 to X:10 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF153801 to X:11 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFC901 to X:12 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFBC01 to X:13 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFF18500 to X:14 Y:6
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF362900 to X:4 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF162900 to X:5 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFC901 to X:6 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFB601 to X:7 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFF5A801 to X:8 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFB901 to X:9 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF163901 to X:10 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF595D01 to X:11 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF384D01 to X:12 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF151800 to X:13 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:7
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFA200 to X:6 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFACD01 to X:7 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFB501 to X:8 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFB601 to X:9 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFC701 to X:10 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFA500 to X:11 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFF9300 to X:12 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:8
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF332500 to X:5 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF3D7101 to X:6 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFD0001 to X:7 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF3C6E01 to X:8 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF575701 to X:9 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF1A4E00 to X:10 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:9
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF322600 to X:4 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF756C01 to X:5 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF5C7C01 to X:6 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFF0001 to X:7 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF449201 to X:8 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF429301 to X:9 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFF0001 to X:10 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF3B5D00 to X:11 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF544800 to X:12 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF332700 to X:13 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:10
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF353900 to X:3 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF555C01 to X:4 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF746701 to X:5 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF419401 to X:6 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFE40001 to X:7 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFED0001 to X:8 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFED0001 to X:9 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFE30001 to X:10 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF429501 to X:11 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF766801 to X:12 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF555C01 to X:13 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FF353900 to X:14 Y:11
+5/12/2016 7:45:20 PM(UTC): Drawing pixel with color #FFFFB701 to X:3 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFC601 to X:4 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF1B5D01 to X:5 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFF0001 to X:6 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFF01 to X:7 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0001 to X:8 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0001 to X:9 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFF01 to X:10 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFF0001 to X:11 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF1B5D01 to X:12 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFC601 to X:13 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFB701 to X:14 Y:12
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF6AA01 to X:3 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF5A501 to X:4 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFF01 to X:5 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0001 to X:6 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0001 to X:7 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFD70101 to X:8 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFD70101 to X:9 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0001 to X:10 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0001 to X:11 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFF01 to X:12 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF5A501 to X:13 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF6AA01 to X:14 Y:13
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF49600 to X:3 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFCBC00 to X:4 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFC60001 to X:5 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFD70101 to X:6 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFD80101 to X:7 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCD0000 to X:8 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCD0000 to X:9 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFD80101 to X:10 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFD70101 to X:11 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFC60001 to X:12 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFCBC00 to X:13 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF49600 to X:14 Y:14
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFE50000 to X:5 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFEE0001 to X:6 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFC40000 to X:7 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFC40000 to X:10 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFEE0001 to X:11 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFE50000 to X:12 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:15
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:3 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF322500 to X:4 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF5D8001 to X:5 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF3B5E00 to X:6 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF3B5E00 to X:11 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF5D8001 to X:12 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF322500 to X:13 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:16
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF524800 to X:3 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF736B01 to X:4 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF716801 to X:5 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF534900 to X:6 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF534900 to X:11 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF716801 to X:12 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF736B01 to X:13 Y:17
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF524800 to X:14 Y:17
+5/12/2016 7:45:21 PM(UTC): int parse successful, int: 3
+5/12/2016 7:45:21 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:21 PM(UTC): Running code SetVariable(thex, 4)
+5/12/2016 7:45:21 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:21 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:21 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:21 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:21 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:21 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:21 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:21 PM(UTC): int parse successful, int: 4
+5/12/2016 7:45:21 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:21 PM(UTC): Loading Texture with filename mario.texture to X:4 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:4 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0000 to X:7 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFD60101 to X:8 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFD70101 to X:9 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFD70101 to X:10 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0000 to X:11 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:2
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFDD0000 to X:6 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFED0001 to X:7 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFEF0001 to X:8 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0001 to X:9 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFCE0001 to X:10 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF10001 to X:11 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFC50000 to X:12 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFC50000 to X:13 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFBC0000 to X:14 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:3
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF1C4C00 to X:6 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF5F8001 to X:7 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF1D5C01 to X:8 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFDB01 to X:9 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFDA01 to X:10 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF1F5F01 to X:11 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFC900 to X:12 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:4
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF151700 to X:5 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFD801 to X:6 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF354701 to X:7 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFD701 to X:8 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF4A501 to X:9 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFB801 to X:10 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF173901 to X:11 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFC901 to X:12 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF39600 to X:13 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF38500 to X:14 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:5
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF383B00 to X:5 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFD801 to X:6 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF384B01 to X:7 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF183A01 to X:8 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFB901 to X:9 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF4A701 to X:10 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFD901 to X:11 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF153801 to X:12 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFC901 to X:13 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFBC01 to X:14 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF18500 to X:15 Y:6
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF362900 to X:5 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF162900 to X:6 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFC901 to X:7 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFB601 to X:8 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFF5A801 to X:9 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFB901 to X:10 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF163901 to X:11 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF595D01 to X:12 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF384D01 to X:13 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FF151800 to X:14 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:7
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:8
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:8
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:8
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFA200 to X:7 Y:8
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFACD01 to X:8 Y:8
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFB501 to X:9 Y:8
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFB601 to X:10 Y:8
+5/12/2016 7:45:21 PM(UTC): Drawing pixel with color #FFFFC701 to X:11 Y:8
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFA500 to X:12 Y:8
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFF9300 to X:13 Y:8
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:8
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:8
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF332500 to X:6 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF3D7101 to X:7 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFD0001 to X:8 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF3C6E01 to X:9 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF575701 to X:10 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF1A4E00 to X:11 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:9
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF322600 to X:5 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF756C01 to X:6 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF5C7C01 to X:7 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFF0001 to X:8 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF449201 to X:9 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF429301 to X:10 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFF0001 to X:11 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF3B5D00 to X:12 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF544800 to X:13 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF332700 to X:14 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:10
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF353900 to X:4 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF555C01 to X:5 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF746701 to X:6 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF419401 to X:7 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFE40001 to X:8 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFED0001 to X:9 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFED0001 to X:10 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFE30001 to X:11 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF429501 to X:12 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF766801 to X:13 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF555C01 to X:14 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF353900 to X:15 Y:11
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFB701 to X:4 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFC601 to X:5 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF1B5D01 to X:6 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFF0001 to X:7 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFF01 to X:8 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCE0001 to X:9 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCE0001 to X:10 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFF01 to X:11 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFF0001 to X:12 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF1B5D01 to X:13 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFC601 to X:14 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFB701 to X:15 Y:12
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFF6AA01 to X:4 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFF5A501 to X:5 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFF01 to X:6 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCE0001 to X:7 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCE0001 to X:8 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFD70101 to X:9 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFD70101 to X:10 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCE0001 to X:11 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCE0001 to X:12 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFF01 to X:13 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFF5A501 to X:14 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFF6AA01 to X:15 Y:13
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFF49600 to X:4 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFCBC00 to X:5 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFC60001 to X:6 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFD70101 to X:7 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFD80101 to X:8 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCD0000 to X:9 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCD0000 to X:10 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFD80101 to X:11 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFD70101 to X:12 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFC60001 to X:13 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFCBC00 to X:14 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFF49600 to X:15 Y:14
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFE50000 to X:6 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFEE0001 to X:7 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFC40000 to X:8 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFC40000 to X:11 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFEE0001 to X:12 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFE50000 to X:13 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:15
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:4 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF322500 to X:5 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF5D8001 to X:6 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF3B5E00 to X:7 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF3B5E00 to X:12 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF5D8001 to X:13 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF322500 to X:14 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:16
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF524800 to X:4 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF736B01 to X:5 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF716801 to X:6 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF534900 to X:7 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF534900 to X:12 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF716801 to X:13 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF736B01 to X:14 Y:17
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FF524800 to X:15 Y:17
+5/12/2016 7:45:22 PM(UTC): int parse successful, int: 4
+5/12/2016 7:45:22 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:22 PM(UTC): Running code SetVariable(thex, 5)
+5/12/2016 7:45:22 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:22 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:22 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:22 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:22 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:22 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:22 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:22 PM(UTC): int parse successful, int: 5
+5/12/2016 7:45:22 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:22 PM(UTC): Loading Texture with filename mario.texture to X:5 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:5 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCE0000 to X:8 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFD60101 to X:9 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFD70101 to X:10 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFD70101 to X:11 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFCE0000 to X:12 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:2
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:3
+5/12/2016 7:45:22 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFDD0000 to X:7 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFED0001 to X:8 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFEF0001 to X:9 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCE0001 to X:10 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCE0001 to X:11 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF10001 to X:12 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFC50000 to X:13 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFC50000 to X:14 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFBC0000 to X:15 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:3
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF1C4C00 to X:7 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF5F8001 to X:8 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF1D5C01 to X:9 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFDB01 to X:10 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFDA01 to X:11 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF1F5F01 to X:12 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFC900 to X:13 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:4
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF151700 to X:6 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFD801 to X:7 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF354701 to X:8 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFD701 to X:9 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF4A501 to X:10 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFB801 to X:11 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF173901 to X:12 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFC901 to X:13 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF39600 to X:14 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF38500 to X:15 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:5
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF383B00 to X:6 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFD801 to X:7 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF384B01 to X:8 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF183A01 to X:9 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFB901 to X:10 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF4A701 to X:11 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFD901 to X:12 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF153801 to X:13 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFC901 to X:14 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFBC01 to X:15 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF18500 to X:16 Y:6
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF362900 to X:6 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF162900 to X:7 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFC901 to X:8 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFB601 to X:9 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF5A801 to X:10 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFB901 to X:11 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF163901 to X:12 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF595D01 to X:13 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF384D01 to X:14 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF151800 to X:15 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:7
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFA200 to X:8 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFACD01 to X:9 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFB501 to X:10 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFB601 to X:11 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFC701 to X:12 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFA500 to X:13 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFF9300 to X:14 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:8
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF332500 to X:7 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF3D7101 to X:8 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFD0001 to X:9 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF3C6E01 to X:10 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF575701 to X:11 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF1A4E00 to X:12 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:9
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF322600 to X:6 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF756C01 to X:7 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF5C7C01 to X:8 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFF0001 to X:9 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF449201 to X:10 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF429301 to X:11 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFF0001 to X:12 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF3B5D00 to X:13 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF544800 to X:14 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF332700 to X:15 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:10
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF353900 to X:5 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF555C01 to X:6 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF746701 to X:7 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF419401 to X:8 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFE40001 to X:9 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFED0001 to X:10 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFED0001 to X:11 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFE30001 to X:12 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF429501 to X:13 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF766801 to X:14 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF555C01 to X:15 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF353900 to X:16 Y:11
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFB701 to X:5 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFC601 to X:6 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF1B5D01 to X:7 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFF0001 to X:8 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFF01 to X:9 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCE0001 to X:10 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCE0001 to X:11 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFF01 to X:12 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFF0001 to X:13 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FF1B5D01 to X:14 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFC601 to X:15 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFB701 to X:16 Y:12
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF6AA01 to X:5 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF5A501 to X:6 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFF01 to X:7 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCE0001 to X:8 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCE0001 to X:9 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFD70101 to X:10 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFD70101 to X:11 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCE0001 to X:12 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCE0001 to X:13 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFF01 to X:14 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF5A501 to X:15 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF6AA01 to X:16 Y:13
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF49600 to X:5 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFCBC00 to X:6 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFC60001 to X:7 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFD70101 to X:8 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFD80101 to X:9 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCD0000 to X:10 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFCD0000 to X:11 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFD80101 to X:12 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFD70101 to X:13 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFC60001 to X:14 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFCBC00 to X:15 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFF49600 to X:16 Y:14
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:15
+5/12/2016 7:45:23 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFE50000 to X:7 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFEE0001 to X:8 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFC40000 to X:9 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFC40000 to X:12 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFEE0001 to X:13 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFE50000 to X:14 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:15
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:5 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF322500 to X:6 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF5D8001 to X:7 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF3B5E00 to X:8 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF3B5E00 to X:13 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF5D8001 to X:14 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF322500 to X:15 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:16
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF524800 to X:5 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF736B01 to X:6 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF716801 to X:7 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF534900 to X:8 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF534900 to X:13 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF716801 to X:14 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF736B01 to X:15 Y:17
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF524800 to X:16 Y:17
+5/12/2016 7:45:24 PM(UTC): int parse successful, int: 5
+5/12/2016 7:45:24 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:24 PM(UTC): Running code SetVariable(thex, 6)
+5/12/2016 7:45:24 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:24 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:24 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:24 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:24 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:24 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:24 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:24 PM(UTC): int parse successful, int: 6
+5/12/2016 7:45:24 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:24 PM(UTC): Loading Texture with filename mario.texture to X:6 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:6 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFCE0000 to X:9 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFD60101 to X:10 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFD70101 to X:11 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFD70101 to X:12 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFCE0000 to X:13 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:2
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFDD0000 to X:8 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFED0001 to X:9 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFEF0001 to X:10 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFCE0001 to X:11 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFCE0001 to X:12 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFF10001 to X:13 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFC50000 to X:14 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFC50000 to X:15 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFBC0000 to X:16 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:3
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF1C4C00 to X:8 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF5F8001 to X:9 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF1D5C01 to X:10 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFDB01 to X:11 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFDA01 to X:12 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF1F5F01 to X:13 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFC900 to X:14 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:4
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF151700 to X:7 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFD801 to X:8 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF354701 to X:9 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFD701 to X:10 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFF4A501 to X:11 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFB801 to X:12 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF173901 to X:13 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFC901 to X:14 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFF39600 to X:15 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFF38500 to X:16 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:5
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF383B00 to X:7 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFD801 to X:8 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF384B01 to X:9 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF183A01 to X:10 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFB901 to X:11 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFF4A701 to X:12 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFD901 to X:13 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF153801 to X:14 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFC901 to X:15 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFBC01 to X:16 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFF18500 to X:17 Y:6
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF362900 to X:7 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF162900 to X:8 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFC901 to X:9 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFB601 to X:10 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFF5A801 to X:11 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFB901 to X:12 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF163901 to X:13 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF595D01 to X:14 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF384D01 to X:15 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF151800 to X:16 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:7
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFA200 to X:9 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFACD01 to X:10 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFB501 to X:11 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFB601 to X:12 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFC701 to X:13 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFA500 to X:14 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFF9300 to X:15 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:8
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF332500 to X:8 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF3D7101 to X:9 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFD0001 to X:10 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF3C6E01 to X:11 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF575701 to X:12 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF1A4E00 to X:13 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:9
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF322600 to X:7 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF756C01 to X:8 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF5C7C01 to X:9 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFF0001 to X:10 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF449201 to X:11 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF429301 to X:12 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFF0001 to X:13 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF3B5D00 to X:14 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF544800 to X:15 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF332700 to X:16 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:10
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF353900 to X:6 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF555C01 to X:7 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF746701 to X:8 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF419401 to X:9 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFE40001 to X:10 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFED0001 to X:11 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFED0001 to X:12 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFE30001 to X:13 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF429501 to X:14 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF766801 to X:15 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF555C01 to X:16 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF353900 to X:17 Y:11
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFB701 to X:6 Y:12
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFC601 to X:7 Y:12
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FF1B5D01 to X:8 Y:12
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFF0001 to X:9 Y:12
+5/12/2016 7:45:24 PM(UTC): Drawing pixel with color #FFFFFF01 to X:10 Y:12
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0001 to X:11 Y:12
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0001 to X:12 Y:12
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFF01 to X:13 Y:12
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFF0001 to X:14 Y:12
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF1B5D01 to X:15 Y:12
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFC601 to X:16 Y:12
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFB701 to X:17 Y:12
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF6AA01 to X:6 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF5A501 to X:7 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFF01 to X:8 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0001 to X:9 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0001 to X:10 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFD70101 to X:11 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFD70101 to X:12 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0001 to X:13 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0001 to X:14 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFF01 to X:15 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF5A501 to X:16 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF6AA01 to X:17 Y:13
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF49600 to X:6 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFCBC00 to X:7 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFC60001 to X:8 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFD70101 to X:9 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFD80101 to X:10 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCD0000 to X:11 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCD0000 to X:12 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFD80101 to X:13 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFD70101 to X:14 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFC60001 to X:15 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFCBC00 to X:16 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF49600 to X:17 Y:14
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFE50000 to X:8 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFEE0001 to X:9 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFC40000 to X:10 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFC40000 to X:13 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFEE0001 to X:14 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFE50000 to X:15 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:15
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:6 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF322500 to X:7 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF5D8001 to X:8 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF3B5E00 to X:9 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF3B5E00 to X:14 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF5D8001 to X:15 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF322500 to X:16 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:16
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF524800 to X:6 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF736B01 to X:7 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF716801 to X:8 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF534900 to X:9 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF534900 to X:14 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF716801 to X:15 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF736B01 to X:16 Y:17
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF524800 to X:17 Y:17
+5/12/2016 7:45:25 PM(UTC): int parse successful, int: 6
+5/12/2016 7:45:25 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:25 PM(UTC): Running code SetVariable(thex, 7)
+5/12/2016 7:45:25 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:25 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:25 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:25 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:25 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:25 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:25 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:25 PM(UTC): int parse successful, int: 7
+5/12/2016 7:45:25 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:25 PM(UTC): Loading Texture with filename mario.texture to X:7 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:7 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0000 to X:10 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFD60101 to X:11 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFD70101 to X:12 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFD70101 to X:13 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0000 to X:14 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:2
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFDD0000 to X:9 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFED0001 to X:10 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFEF0001 to X:11 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0001 to X:12 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFCE0001 to X:13 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF10001 to X:14 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFC50000 to X:15 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFC50000 to X:16 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFBC0000 to X:17 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:3
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF1C4C00 to X:9 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF5F8001 to X:10 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF1D5C01 to X:11 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFDB01 to X:12 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFDA01 to X:13 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF1F5F01 to X:14 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFC900 to X:15 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:4
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF151700 to X:8 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFD801 to X:9 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF354701 to X:10 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFD701 to X:11 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF4A501 to X:12 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFB801 to X:13 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF173901 to X:14 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFC901 to X:15 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF39600 to X:16 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF38500 to X:17 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:5
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF383B00 to X:8 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFD801 to X:9 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF384B01 to X:10 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF183A01 to X:11 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFB901 to X:12 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF4A701 to X:13 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFD901 to X:14 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF153801 to X:15 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFC901 to X:16 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFBC01 to X:17 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF18500 to X:18 Y:6
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF362900 to X:8 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF162900 to X:9 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFC901 to X:10 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFB601 to X:11 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFF5A801 to X:12 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFB901 to X:13 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF163901 to X:14 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF595D01 to X:15 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF384D01 to X:16 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF151800 to X:17 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:7
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFA200 to X:10 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFACD01 to X:11 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFB501 to X:12 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFB601 to X:13 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFC701 to X:14 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFA500 to X:15 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFF9300 to X:16 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:8
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF332500 to X:9 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF3D7101 to X:10 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFD0001 to X:11 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF3C6E01 to X:12 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF575701 to X:13 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FF1A4E00 to X:14 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:9
+5/12/2016 7:45:25 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF322600 to X:8 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF756C01 to X:9 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF5C7C01 to X:10 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFF0001 to X:11 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF449201 to X:12 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF429301 to X:13 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFF0001 to X:14 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF3B5D00 to X:15 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF544800 to X:16 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF332700 to X:17 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:10
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF353900 to X:7 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF555C01 to X:8 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF746701 to X:9 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF419401 to X:10 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFE40001 to X:11 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFED0001 to X:12 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFED0001 to X:13 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFE30001 to X:14 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF429501 to X:15 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF766801 to X:16 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF555C01 to X:17 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF353900 to X:18 Y:11
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFB701 to X:7 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFC601 to X:8 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF1B5D01 to X:9 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFF0001 to X:10 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFF01 to X:11 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0001 to X:12 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0001 to X:13 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFF01 to X:14 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFF0001 to X:15 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF1B5D01 to X:16 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFC601 to X:17 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFB701 to X:18 Y:12
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF6AA01 to X:7 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF5A501 to X:8 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFF01 to X:9 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0001 to X:10 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0001 to X:11 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFD70101 to X:12 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFD70101 to X:13 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0001 to X:14 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0001 to X:15 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFF01 to X:16 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF5A501 to X:17 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF6AA01 to X:18 Y:13
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF49600 to X:7 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFCBC00 to X:8 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFC60001 to X:9 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFD70101 to X:10 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFD80101 to X:11 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCD0000 to X:12 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCD0000 to X:13 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFD80101 to X:14 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFD70101 to X:15 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFC60001 to X:16 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFCBC00 to X:17 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF49600 to X:18 Y:14
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFE50000 to X:9 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFEE0001 to X:10 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFC40000 to X:11 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFC40000 to X:14 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFEE0001 to X:15 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFE50000 to X:16 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:15
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:7 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF322500 to X:8 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF5D8001 to X:9 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF3B5E00 to X:10 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF3B5E00 to X:15 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF5D8001 to X:16 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF322500 to X:17 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:16
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF524800 to X:7 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF736B01 to X:8 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF716801 to X:9 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF534900 to X:10 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:11 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF534900 to X:15 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF716801 to X:16 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF736B01 to X:17 Y:17
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF524800 to X:18 Y:17
+5/12/2016 7:45:26 PM(UTC): int parse successful, int: 7
+5/12/2016 7:45:26 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:26 PM(UTC): Running code SetVariable(thex, 8)
+5/12/2016 7:45:26 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:26 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:26 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:26 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:26 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:26 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:26 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:26 PM(UTC): int parse successful, int: 8
+5/12/2016 7:45:26 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:26 PM(UTC): Loading Texture with filename mario.texture to X:8 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:8 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0000 to X:11 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFD60101 to X:12 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFD70101 to X:13 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFD70101 to X:14 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0000 to X:15 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:2
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFDD0000 to X:10 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFED0001 to X:11 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFEF0001 to X:12 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0001 to X:13 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFCE0001 to X:14 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF10001 to X:15 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFC50000 to X:16 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFC50000 to X:17 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFBC0000 to X:18 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:3
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF1C4C00 to X:10 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF5F8001 to X:11 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF1D5C01 to X:12 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFDB01 to X:13 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFDA01 to X:14 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF1F5F01 to X:15 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFC900 to X:16 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:4
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF151700 to X:9 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFD801 to X:10 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF354701 to X:11 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFD701 to X:12 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF4A501 to X:13 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFB801 to X:14 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF173901 to X:15 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFC901 to X:16 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF39600 to X:17 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF38500 to X:18 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:5
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF383B00 to X:9 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFD801 to X:10 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF384B01 to X:11 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF183A01 to X:12 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFB901 to X:13 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF4A701 to X:14 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFD901 to X:15 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF153801 to X:16 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFC901 to X:17 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFBC01 to X:18 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFF18500 to X:19 Y:6
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:7
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF362900 to X:9 Y:7
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FF162900 to X:10 Y:7
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFC901 to X:11 Y:7
+5/12/2016 7:45:26 PM(UTC): Drawing pixel with color #FFFFB601 to X:12 Y:7
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFF5A801 to X:13 Y:7
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFB901 to X:14 Y:7
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF163901 to X:15 Y:7
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF595D01 to X:16 Y:7
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF384D01 to X:17 Y:7
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF151800 to X:18 Y:7
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:7
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFA200 to X:11 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFACD01 to X:12 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFB501 to X:13 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFB601 to X:14 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFC701 to X:15 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFA500 to X:16 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFF9300 to X:17 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:8
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF332500 to X:10 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF3D7101 to X:11 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFD0001 to X:12 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF3C6E01 to X:13 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF575701 to X:14 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF1A4E00 to X:15 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:9
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF322600 to X:9 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF756C01 to X:10 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF5C7C01 to X:11 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFF0001 to X:12 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF449201 to X:13 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF429301 to X:14 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFF0001 to X:15 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF3B5D00 to X:16 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF544800 to X:17 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF332700 to X:18 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:10
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF353900 to X:8 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF555C01 to X:9 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF746701 to X:10 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF419401 to X:11 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFE40001 to X:12 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFED0001 to X:13 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFED0001 to X:14 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFE30001 to X:15 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF429501 to X:16 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF766801 to X:17 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF555C01 to X:18 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF353900 to X:19 Y:11
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFB701 to X:8 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFC601 to X:9 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF1B5D01 to X:10 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFF0001 to X:11 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFF01 to X:12 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCE0001 to X:13 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCE0001 to X:14 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFF01 to X:15 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFF0001 to X:16 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF1B5D01 to X:17 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFC601 to X:18 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFB701 to X:19 Y:12
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFF6AA01 to X:8 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFF5A501 to X:9 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFF01 to X:10 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCE0001 to X:11 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCE0001 to X:12 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFD70101 to X:13 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFD70101 to X:14 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCE0001 to X:15 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCE0001 to X:16 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFF01 to X:17 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFF5A501 to X:18 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFF6AA01 to X:19 Y:13
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFF49600 to X:8 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFCBC00 to X:9 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFC60001 to X:10 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFD70101 to X:11 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFD80101 to X:12 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCD0000 to X:13 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCD0000 to X:14 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFD80101 to X:15 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFD70101 to X:16 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFC60001 to X:17 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFCBC00 to X:18 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFF49600 to X:19 Y:14
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFE50000 to X:10 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFEE0001 to X:11 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFC40000 to X:12 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFC40000 to X:15 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFEE0001 to X:16 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFE50000 to X:17 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:15
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF322500 to X:9 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF5D8001 to X:10 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF3B5E00 to X:11 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF3B5E00 to X:16 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF5D8001 to X:17 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF322500 to X:18 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:16
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF524800 to X:8 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF736B01 to X:9 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF716801 to X:10 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF534900 to X:11 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF534900 to X:16 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF716801 to X:17 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF736B01 to X:18 Y:17
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FF524800 to X:19 Y:17
+5/12/2016 7:45:27 PM(UTC): Key down: s
+5/12/2016 7:45:27 PM(UTC): Loading code with filename movemario.age
+5/12/2016 7:45:27 PM(UTC): Running code Log(Move mario script AGE key: $pressedkey);
+ifc($pressedkey, a, SetVariable(thex, Add($thex, -1));WaitForRender();
+ifc($pressedkey, d, SetVariable(thex, Add($thex, 1));WaitForRender();
+ifc($pressedkey, w, SetVariable(they, Add($they, -1));WaitForRender();
+ifc($pressedkey, s, SetVariable(they, Add($they, 1));WaitForRender();
+LoadCode(DrawMario.age);WaitForRender();
+5/12/2016 7:45:27 PM(UTC): Move mario script AGE key: s
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: 8
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: 8
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: -1
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: 2
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: 1
+5/12/2016 7:45:27 PM(UTC): Running code SetVariable(they, 3)
+5/12/2016 7:45:27 PM(UTC): Loading code with filename DrawMario.age
+5/12/2016 7:45:27 PM(UTC): Running code Log(Draw mario script AGE);
+ClearScreen();
+LoadTexture($thex,$they,mario.texture);WaitForRender();
+5/12/2016 7:45:27 PM(UTC): Draw mario script AGE
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: 8
+5/12/2016 7:45:27 PM(UTC): int parse successful, int: 3
+5/12/2016 7:45:27 PM(UTC): Loading Texture with filename mario.texture to X:8 Y:3
+5/12/2016 7:45:27 PM(UTC): Drawing Texture with texture sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#CE0000-1-sc#D60101-1-sc#D70101-1-sc#D70101-1-sc#CE0000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#DD0000-1-sc#ED0001-1-sc#EF0001-1-sc#CE0001-1-sc#CE0001-1-sc#F10001-1-sc#C50000-1-sc#C50000-1-sc#BC0000-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#1C4C00-1-sc#5F8001-1-sc#1D5C01-1-sc#FFDB01-1-sc#FFDA01-1-sc#1F5F01-1-sc#FFC900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#151700-1-sc#FFD801-1-sc#354701-1-sc#FFD701-1-sc#F4A501-1-sc#FFB801-1-sc#173901-1-sc#FFC901-1-sc#F39600-1-sc#F38500-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#383B00-1-sc#FFD801-1-sc#384B01-1-sc#183A01-1-sc#FFB901-1-sc#F4A701-1-sc#FFD901-1-sc#153801-1-sc#FFC901-1-sc#FFBC01-1-sc#F18500-1-nl-sc#FFFFFF-1-sc#362900-1-sc#162900-1-sc#FFC901-1-sc#FFB601-1-sc#F5A801-1-sc#FFB901-1-sc#163901-1-sc#595D01-1-sc#384D01-1-sc#151800-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFA200-1-sc#FACD01-1-sc#FFB501-1-sc#FFB601-1-sc#FFC701-1-sc#FFA500-1-sc#FF9300-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#332500-1-sc#3D7101-1-sc#FD0001-1-sc#3C6E01-1-sc#575701-1-sc#1A4E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322600-1-sc#756C01-1-sc#5C7C01-1-sc#FF0001-1-sc#449201-1-sc#429301-1-sc#FF0001-1-sc#3B5D00-1-sc#544800-1-sc#332700-1-sc#FFFFFF-1-nl-sc#353900-1-sc#555C01-1-sc#746701-1-sc#419401-1-sc#E40001-1-sc#ED0001-1-sc#ED0001-1-sc#E30001-1-sc#429501-1-sc#766801-1-sc#555C01-1-sc#353900-1-nl-sc#FFB701-1-sc#FFC601-1-sc#1B5D01-1-sc#FF0001-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#FF0001-1-sc#1B5D01-1-sc#FFC601-1-sc#FFB701-1-nl-sc#F6AA01-1-sc#F5A501-1-sc#FFFF01-1-sc#CE0001-1-sc#CE0001-1-sc#D70101-1-sc#D70101-1-sc#CE0001-1-sc#CE0001-1-sc#FFFF01-1-sc#F5A501-1-sc#F6AA01-1-nl-sc#F49600-1-sc#FCBC00-1-sc#C60001-1-sc#D70101-1-sc#D80101-1-sc#CD0000-1-sc#CD0000-1-sc#D80101-1-sc#D70101-1-sc#C60001-1-sc#FCBC00-1-sc#F49600-1-nl-sc#FFFFFF-1-sc#FFFFFF-1-sc#E50000-1-sc#EE0001-1-sc#C40000-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#C40000-1-sc#EE0001-1-sc#E50000-1-sc#FFFFFF-1-sc#FFFFFF-1-nl-sc#FFFFFF-1-sc#322500-1-sc#5D8001-1-sc#3B5E00-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#3B5E00-1-sc#5D8001-1-sc#322500-1-sc#FFFFFF-1-nl-sc#524800-1-sc#736B01-1-sc#716801-1-sc#534900-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#FFFFFF-1-sc#534900-1-sc#716801-1-sc#736B01-1-sc#524800-1-nl- to X:8 Y:3
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:3
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:3
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:3
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCE0000 to X:11 Y:3
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFD60101 to X:12 Y:3
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFD70101 to X:13 Y:3
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFD70101 to X:14 Y:3
+5/12/2016 7:45:27 PM(UTC): Drawing pixel with color #FFCE0000 to X:15 Y:3
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:3
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:3
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:3
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:3
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFDD0000 to X:10 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFED0001 to X:11 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFEF0001 to X:12 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCE0001 to X:13 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCE0001 to X:14 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF10001 to X:15 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFC50000 to X:16 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFC50000 to X:17 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFBC0000 to X:18 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:4
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF1C4C00 to X:10 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF5F8001 to X:11 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF1D5C01 to X:12 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFDB01 to X:13 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFDA01 to X:14 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF1F5F01 to X:15 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFC900 to X:16 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:5
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF151700 to X:9 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFD801 to X:10 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF354701 to X:11 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFD701 to X:12 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF4A501 to X:13 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFB801 to X:14 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF173901 to X:15 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFC901 to X:16 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF39600 to X:17 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF38500 to X:18 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:6
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF383B00 to X:9 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFD801 to X:10 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF384B01 to X:11 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF183A01 to X:12 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFB901 to X:13 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF4A701 to X:14 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFD901 to X:15 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF153801 to X:16 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFC901 to X:17 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFBC01 to X:18 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF18500 to X:19 Y:7
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF362900 to X:9 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF162900 to X:10 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFC901 to X:11 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFB601 to X:12 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF5A801 to X:13 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFB901 to X:14 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF163901 to X:15 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF595D01 to X:16 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF384D01 to X:17 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF151800 to X:18 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:8
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:10 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFA200 to X:11 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFACD01 to X:12 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFB501 to X:13 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFB601 to X:14 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFC701 to X:15 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFA500 to X:16 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFF9300 to X:17 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:9
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF332500 to X:10 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF3D7101 to X:11 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFD0001 to X:12 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF3C6E01 to X:13 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF575701 to X:14 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF1A4E00 to X:15 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:16 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:17 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:10
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF322600 to X:9 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF756C01 to X:10 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF5C7C01 to X:11 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFF0001 to X:12 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF449201 to X:13 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF429301 to X:14 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFF0001 to X:15 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF3B5D00 to X:16 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF544800 to X:17 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF332700 to X:18 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:11
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF353900 to X:8 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF555C01 to X:9 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF746701 to X:10 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF419401 to X:11 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFE40001 to X:12 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFED0001 to X:13 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFED0001 to X:14 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFE30001 to X:15 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF429501 to X:16 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF766801 to X:17 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF555C01 to X:18 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF353900 to X:19 Y:12
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFB701 to X:8 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFC601 to X:9 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF1B5D01 to X:10 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFF0001 to X:11 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFF01 to X:12 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCE0001 to X:13 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCE0001 to X:14 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFF01 to X:15 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFF0001 to X:16 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF1B5D01 to X:17 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFC601 to X:18 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFB701 to X:19 Y:13
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF6AA01 to X:8 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF5A501 to X:9 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFF01 to X:10 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCE0001 to X:11 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCE0001 to X:12 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFD70101 to X:13 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFD70101 to X:14 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCE0001 to X:15 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCE0001 to X:16 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFF01 to X:17 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF5A501 to X:18 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF6AA01 to X:19 Y:14
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF49600 to X:8 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFCBC00 to X:9 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFC60001 to X:10 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFD70101 to X:11 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFD80101 to X:12 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCD0000 to X:13 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFCD0000 to X:14 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFD80101 to X:15 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFD70101 to X:16 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFC60001 to X:17 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFCBC00 to X:18 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFF49600 to X:19 Y:15
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:9 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFE50000 to X:10 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFEE0001 to X:11 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFC40000 to X:12 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFC40000 to X:15 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFEE0001 to X:16 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFE50000 to X:17 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:18 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:16
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:8 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF322500 to X:9 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF5D8001 to X:10 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF3B5E00 to X:11 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF3B5E00 to X:16 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF5D8001 to X:17 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF322500 to X:18 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:19 Y:17
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF524800 to X:8 Y:18
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF736B01 to X:9 Y:18
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF716801 to X:10 Y:18
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF534900 to X:11 Y:18
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:12 Y:18
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:13 Y:18
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:14 Y:18
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FFFFFFFF to X:15 Y:18
+5/12/2016 7:45:28 PM(UTC): Drawing pixel with color #FF534900 to X:16 Y:18
+5/12/2016 7:45:29 PM(UTC): Drawing pixel with color #FF716801 to X:17 Y:18
+5/12/2016 7:45:29 PM(UTC): Drawing pixel with color #FF736B01 to X:18 Y:18
+5/12/2016 7:45:29 PM(UTC): Drawing pixel with color #FF524800 to X:19 Y:18

@@ -1,0 +1,9 @@
+C:\Users\ardao\documents\visual studio 2015\Projects\AGS\TexImport\bin\Debug\TexImport.exe.config
+C:\Users\ardao\documents\visual studio 2015\Projects\AGS\TexImport\bin\Debug\TexImport.exe
+C:\Users\ardao\documents\visual studio 2015\Projects\AGS\TexImport\bin\Debug\TexImport.pdb
+C:\Users\ardao\documents\visual studio 2015\Projects\AGS\TexImport\obj\Debug\TexImport.csprojResolveAssemblyReference.cache
+C:\Users\ardao\documents\visual studio 2015\Projects\AGS\TexImport\obj\Debug\TexImport.Properties.Resources.resources
+C:\Users\ardao\documents\visual studio 2015\Projects\AGS\TexImport\obj\Debug\TexImport.csproj.GenerateResource.Cache
+C:\Users\ardao\documents\visual studio 2015\Projects\AGS\TexImport\obj\Debug\TexImport.exe
+C:\Users\ardao\documents\visual studio 2015\Projects\AGS\TexImport\obj\Debug\TexImport.pdb
+C:\Users\ardao\documents\visual studio 2015\Projects\AGS\TexImport\obj\Debug\TexImport.Form1.resources
